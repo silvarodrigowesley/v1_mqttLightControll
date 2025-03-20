@@ -26,8 +26,8 @@ Os relés estão conectados a pinos do ESP32 definidos em um array, e configurad
 4. Configure o **endereço do broker MQTT** no arquivo `MQTTManager.h`.
 5. Compile e envie o código para o ESP32.
 6. No broker MQTT, envie os comandos:
-   - `LIGA-1` para ligar o relé
-   - `DESLIGA-1` para desligar o relé
+   - `ON-1` para ligar o relé
+   - `OFF-1` para desligar o relé
 
 ## 📝 Estrutura do Código
 O código está organizado em arquivos `.h` e `.cpp`:
